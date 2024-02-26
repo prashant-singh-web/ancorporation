@@ -20,7 +20,7 @@ function About() {
         SERVED INDUSTRY
       </h2>
       <hr className="mx-auto w-16 h-0.5 bg-yellow-400" />
-      <div className="w-full grid grid-cols-3 text-center /40 p-10">
+      <div className="w-full grid grid-cols-1 md:grid-cols-3 text-center /40 p-10">
         <div className="w-full flex flex-col p-4 hover:bg-white ease-in-out duration-200 hover:shadow-sm">
           <MdOutlineLocalPharmacy className="text-gray-500 text-9xl m-auto py-5" />
           <h3 className="text-base font-semibold">Pharmaceuticals</h3>

@@ -13,7 +13,7 @@ function Services() {
       <div className="w-full flex flex-row justify-between p-10 bg-white">
         <h3 className="text-xl font-semibold text-gray-950/85">OUR SERVICES</h3>
       </div>
-      <div className="w-full grid grid-cols-3 text-center bg-[#F5F5F5]/40 p-10">
+      <div className="w-full grid grid-cols-1 md:grid-cols-3 text-center bg-[#F5F5F5]/40 p-10">
         <div className="w-full flex flex-col p-4 hover:bg-white ease-in-out duration-200 hover:shadow-sm">
           <CgSmartHomeBoiler className="text-gray-500 text-9xl m-auto py-5" />
           <h3 className="text-base font-semibold">Boiler Installation work</h3>
@@ -75,7 +75,7 @@ function Services() {
           We undertake the erection of all types of Mild Steel shades and godowns. Our structures are built to last, providing reliable storage solutions for our clients.
           </p>
         </div>
-        <div className="w-full flex flex-col justify-center items-center h-full bg-yellow-400  p-4 hover:bg-white text-gray-500 ease-in-out duration-200 hover:shadow-sm">
+        <div className="w-full flex flex-col justify-center items-center h-full bg-yellow-400  p-4 py-20 md:py-0 hover:bg-white text-gray-500 ease-in-out duration-200 hover:shadow-sm">
         <a href="file-url" download>
           <FaCloudDownloadAlt className="size-28  "/>
 

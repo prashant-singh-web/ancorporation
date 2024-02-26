@@ -6,7 +6,7 @@ function Home_client() {
     <div className='w-full bg-white py-10 flex flex-col '>
         <h3 className='text-2xl text-center'>WE WORK WITH</h3>
         <hr  className='w-16 h-0.5 bg-yellow-400 mx-auto my-3'/>
-        <div className=" mx-auto flex flex-row space-x-5 my-10">
+        <div className=" mx-auto flex flex-col space-y-10 md:space-y-0 md:flex-row space-x-5 my-10">
             <Image src={`/client/basic.png`} alt='basic' width={100} height={100} unoptimized className='w-48 my-auto h-fit'/>
             <Image src={`/client/suyog.png`} alt='basic' width={100} height={100} unoptimized className='w-48 h-fit'/>
             <Image src={`/client/siddharth.png`} alt='basic' width={100} height={100} unoptimized className='w-48 h-fit'/>

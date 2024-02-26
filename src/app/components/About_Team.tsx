@@ -8,8 +8,8 @@ function About_Team() {
         OUR TEAM
       </h2>
       <hr className="mx-auto w-16 h-1 bg-yellow-400" />
-      <div className="w-3/4 grid grid-cols-2 mx-auto mt-10">
-        <div className="flex flex-col shadow rounded-md w-3/4">
+      <div className="w-3/4 grid grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-0 mx-auto mt-10">
+        <div className="flex flex-col shadow rounded-md md:w-3/4 ">
           <Image
             src={`/owner-1.png`}
             alt="logo"
@@ -36,7 +36,7 @@ function About_Team() {
             and several are still going on .
           </p>
         </div>
-        <div className="flex flex-col  shadow rounded-md w-3/4">
+        <div className="flex flex-col  shadow rounded-md md:w-3/4">
           <Image
             src={`/owner-2.png`}
             alt="logo"

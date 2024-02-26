@@ -15,7 +15,7 @@ function Why_we_home() {
         over 15 years of industry experience, we have built a reputation for
         professionalism, reliability, and excellence.
       </p>
-      <div className="w-[90%] mx-auto grid grid-cols-3">
+      <div className="w-[90%] mx-auto grid grid-cols-1 gap-y-10 md:gap-y-0  md:grid-cols-3">
         <div className="flex w-full flex-col">
           <GiSandsOfTime className="size-32 border border-gray-300 text-yellow-400 p-5 mx-auto h-fit rounded-full" />
           <hr className="w-[0.5px] bg-gray-300 mx-auto h-5" />

@@ -15,7 +15,7 @@ function Company_Expertise() {
         <p className="text-base text-center my-10">
         At <b>A.N.CORPORATION </b> our services are comprehensive and tailored to meet the diverse needs of our clients. Here’s a detailed overview of what we offer:
         </p>
-        <div className="w-full grid grid-cols-3 text-center bg-white">
+        <div className="w-full grid grid-cols-1 divide-y-2 md:divide-y-0 md:grid-cols-3 text-center bg-white">
           <div className="w-full flex flex-col p-4">
             <CgSmartHomeBoiler className="text-gray-500 text-9xl m-auto py-5" />
             <h3 className="text-base font-semibold">

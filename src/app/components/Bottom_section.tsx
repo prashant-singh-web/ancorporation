@@ -9,7 +9,7 @@ function Bottom_section() {
   return (
     <footer className="w-full flex flex-col">
         {/* contact information */}
-      <div className="w-full grid grid-cols-3 bg-yellow-400 p-5">
+      <div className="w-full grid grid-cols-1 gap-y-5 md:gap-y-0 md:grid-cols-3 bg-yellow-400 p-5">
         <div className="flex w-full flex-row space-x-3 ">
           <MdEmail className="size-20 rounded-full p-4 bg-white text-yellow-400" />
           <div className="flex flex-col text-white my-auto">
@@ -35,7 +35,7 @@ function Bottom_section() {
         </div>
       </div>
       {/* footer */}
-      <div className="w-full p-5 grid grid-cols-3 gap-5 bg-[#F5F5F5]">
+      <div className="w-full p-5 grid grid-cols-1 md:grid-cols-3 gap-5 bg-[#F5F5F5]">
         <div className="flex w-full flex-col">
             <h2 className="text-sm font-semibold border-b-2 pb-1 border-yellow-400 w-20">About Us</h2>
             <hr />
