@@ -20,7 +20,7 @@ function Company_served() {
     },
   ];
   return (
-    <div className="w-full my-10 ">
+    <div className="w-full my-10 " data-aos="fade-up">
       <div className="m-auto w-[90%] flex flex-col">
         <h2 className="text-3xl font-bold text-gray-900/90 mx-auto border-b-4 border-black pb-2">
           Indusrty Served

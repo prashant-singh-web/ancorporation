@@ -6,7 +6,7 @@ import { SiJfrogpipelines } from "react-icons/si";
 
 function Home_About() {
   return (
-    <div className="full bg-white py-14 flex flex-col">
+    <div className="full bg-white py-14 flex flex-col" data-aos="fade-up">
       <h2 className="text-center text-2xl font-semibold">ABOUT US</h2>
       <hr className="w-16 mt-2 mx-auto h-0.5 bg-yellow-400" />
       <p className="text-base text-center my-10 w-3/4 mx-auto text-gray-900/70">
@@ -29,7 +29,7 @@ function Home_About() {
           />
         </div>
         <div className="w-full flex flex-col justify-between h-full px-5 md:px-0 space-y-5 md:space-y-0">
-          <div className="w-full flex flex-row space-x-5">
+          <div className="w-full flex flex-row space-x-5" data-aos="zoom-in-up">
             <MdEngineering className="size-32 border border-gray-300 text-yellow-400 p-4 h-fit rounded-full" />
             <div className="flex flex-col space-y-3">
               <h3 className="text-lg font-semibold">
@@ -41,7 +41,7 @@ function Home_About() {
               </p>
             </div>
           </div>
-          <div className="w-full flex flex-row space-x-5">
+          <div className="w-full flex flex-row space-x-5" data-aos="zoom-in-up">
             <RiPaintBrushLine className="size-32 border border-gray-300 text-yellow-400 p-4 h-fit rounded-full" />
             <div className="flex flex-col space-y-3">
               <h3 className="text-lg font-semibold">BEST MATERIALS</h3>
@@ -51,7 +51,7 @@ function Home_About() {
               </p>
             </div>
           </div>
-          <div className="w-full flex flex-row space-x-5">
+          <div className="w-full flex flex-row space-x-5" data-aos="zoom-in-up">
             <SiJfrogpipelines className="size-32 border border-gray-300 text-yellow-400 p-4 h-fit rounded-full" />
             <div className="flex flex-col space-y-3">
               <h3 className="text-lg font-semibold">PROFESSIONAL STANDARDS</h3>

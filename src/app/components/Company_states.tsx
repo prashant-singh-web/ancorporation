@@ -29,6 +29,7 @@ function Company_states() {
         <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center sm:grid-cols-2 lg:grid-cols-4">
           {stats.map((stat: any) => (
             <div
+            data-aos="zoom-in-up"
               key={stat.id}
               className="mx-auto flex max-w-xs flex-col gap-y-4"
               // data-aos="fade-up"
