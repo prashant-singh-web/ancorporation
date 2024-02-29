@@ -35,27 +35,29 @@ function Company_served() {
           Our services are comprehensive and tailored to meet the diverse needs
           of our clients. Here’s a detailed overview of what we offer:
         </p>
-        <div className="w-full grid grid-cols-4 gap-[2px]">
-          {
-            Industry_type.map((industry)=>{
-                return(
-                    <div key={industry.id} className="w-full cursor-pointer aspect-square relative group overflow-hidden ease-in-out duration-200">
-            <div className="absolute inset-0 -z-10 group-hover:z-30 bg-black/20 ease-in-out duration-200 backdrop-blur-sm grid place-items-center">
-              <h5 className=" text-white font-bold text-xl px-10 text-center">{industry.industryType} </h5>
-            </div>
-            <Image
-              src={industry.url}
-              alt="hii"
-              width={100}
-              height={100}
-              unoptimized
-              className="w-full h-full ease-in-out duration-200 group-hover:scale-150"
-            />
-          </div>
-                )
-            })
-          }
-          
+        <div className="w-full grid grid-cols-4 px-5 gap-[2px]">
+          {Industry_type.map((industry) => {
+            return (
+              <div
+                key={industry.id}
+                className="w-full cursor-pointer aspect-square relative group overflow-hidden ease-in-out duration-200"
+              >
+                <div className="absolute inset-0 -z-10 group-hover:z-30 bg-black/20 ease-in-out duration-200 backdrop-blur-sm grid place-items-center">
+                  <h5 className=" text-white font-bold text-xl px-10 text-center">
+                    {industry.industryType}{" "}
+                  </h5>
+                </div>
+                <Image
+                  src={industry.url}
+                  alt="hii"
+                  width={100}
+                  height={100}
+                  unoptimized
+                  className="w-full h-full ease-in-out duration-200 group-hover:scale-150"
+                />
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

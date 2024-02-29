@@ -81,19 +81,19 @@ function Navbar_Section() {
           } overflow-hidden
           mx-auto md:mx-0 md:flex-row text-base md:my-auto space-y-4 md:space-y-0 md:space-x-7`}
         >
-          <Link href={`/`} className="hover:text-yellow-400">
+          <Link href={`/`} className="hover:text-yellow-400" onClick={() => setDropDown(false)}>
             Home
           </Link>
-          <Link href={`/services`} className="hover:text-yellow-400">
+          <Link href={`/services`} className="hover:text-yellow-400" onClick={() => setDropDown(false)}>
             Services
           </Link>
-          <Link href={`/about`} className="hover:text-yellow-400">
+          <Link href={`/about`} className="hover:text-yellow-400" onClick={() => setDropDown(false)}>
             About
           </Link>
-          <Link href={`/`} className="hover:text-yellow-400">
+          <Link href={`/`} className="hover:text-yellow-400" onClick={() => setDropDown(false)}>
             Blog
           </Link>
-          <Link href={`/contact`} className="hover:text-yellow-400">
+          <Link href={`/contact`} className="hover:text-yellow-400" onClick={() => setDropDown(false)}>
             Contact
           </Link>
         </div>
