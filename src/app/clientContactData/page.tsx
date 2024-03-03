@@ -103,7 +103,7 @@ function ClientContactData() {
             })}
           </tbody>
         </table>
-        <div className="w-full flex flex-row justify-between p-2">
+{/*         <div className="w-full flex flex-row justify-between p-2">
           <p className="text-sm text-gray-950/80 my-auto">
             Showing 1 to 5 of {formArrey?.totalCount} results
           </p>
@@ -116,7 +116,7 @@ function ClientContactData() {
               {" "}
               <FaChevronRight className="size-10 shadow-md p-2 text-gray-700/50 rounded-sm hover:text-gray-700 cursor-pointer hover:shadow-xl ease-in-out duration-200" />
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
