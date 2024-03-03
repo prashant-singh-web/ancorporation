@@ -9,6 +9,8 @@ import Bottom_section from "./components/Bottom_section";
 export const metadata: Metadata = {
   title: "A.N.Corporation",
  
+  
+ 
 };
 
 export default function RootLayout({

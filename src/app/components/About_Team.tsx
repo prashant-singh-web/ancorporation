@@ -25,16 +25,13 @@ function About_Team() {
           </p>
           <hr className="w-16 h-0.5 bg-yellow-400 mx-auto my-2" />
           <p className="text-sm mx-5 my-5 text-gray-900/80">
-            I have been working in this field since 2005. I have experience of
-            working in{" "}
-            <b>
-              {" "}
-              Bengaluru, Gujrat, Mumbai, Ankleshwor GIDC, Panoli GIDC, Dahej
-              GIDC, Dehej SEZ{" "}
-            </b>
-            . We as a company have successfully completed more then 10 projects
-            and several are still going on .
+            I have been working in this field since 2000. We have successfully
+            provided our services to some of the well renowned chemical &
+            pharmaceutical plant in Gujrat{`'`}s , Anleshwar GIDC and Panoli GIDC. I
+            and my partner MR. DHANANJAY are there to serve you . Feel free to
+            contact us.
           </p>
+          
         </div>
         <div className="flex flex-col  shadow rounded-md md:w-3/4 bg-white">
           <Image
@@ -52,11 +49,15 @@ function About_Team() {
           </p>
           <hr className="w-16 h-0.5 bg-yellow-400 mx-auto my-2" />
           <p className="text-sm mx-5 my-5 text-gray-900/80">
-            I have been working in this field since 2000. We have successfully
-            provided our services to some of the well renowned chemical &
-            pharmaceutical plant in Gujrat{`'`}s , Anleshwar GIDC and Panoli GIDC. I
-            and my partner MR. DHANANJAY are there to serve you . Feel free to
-            contact us.
+            I have been working in this field since 2005. I have experience of
+            working in{" "}
+            <b>
+              {" "}
+              Bengaluru, Gujrat, Mumbai, Ankleshwor GIDC, Panoli GIDC, Dahej
+              GIDC, Dehej SEZ{" "}
+            </b>
+            . We as a company have successfully completed more then 10 projects
+            and several are still going on .
           </p>
         </div>
       </div>
