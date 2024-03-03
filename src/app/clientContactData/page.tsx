@@ -7,6 +7,7 @@ import { RiDeleteBin5Line } from "react-icons/ri";
 
 function ClientContactData() {
   const [formArrey, setFormArrey]:any = useState();
+  console.log(formArrey)
   const [page, setPage] = useState(1);
   const client = [
     {
