@@ -9,44 +9,7 @@ function ClientContactData() {
   const [formArrey, setFormArrey]:any = useState();
   console.log(formArrey)
   const [page, setPage] = useState(1);
-  const client = [
-    {
-      name: "John",
-      email: "test@example.com",
-      number: "123",
-      message: "hey there is another message",
-    },
-    {
-      name: "John",
-      email: "test@example.com",
-      number: "123",
-      message: "hey there is another message",
-    },
-    {
-      name: "John",
-      email: "test@example.com",
-      number: "123",
-      message: "hey there is another message",
-    },
-    {
-      name: "John",
-      email: "test@example.com",
-      number: "123",
-      message: "hey there is another message",
-    },
-    {
-      name: "John",
-      email: "test@example.com",
-      number: "123",
-      message: "hey there is another message",
-    },
-    {
-      name: "John",
-      email: "test@example.com",
-      number: "123",
-      message: "hey there is another message",
-    },
-  ];
+ 
  
   const getFormData = () => {
     try {
@@ -105,9 +68,9 @@ function ClientContactData() {
           </tbody>
         </table>
 {/*         <div className="w-full flex flex-row justify-between p-2">
-          <p className="text-sm text-gray-950/80 my-auto">
+{/*           <p className="text-sm text-gray-950/80 my-auto">
             Showing 1 to 5 of {formArrey?.totalCount} results
-          </p>
+          </p> */}
           <div className="flex flex-row justify-center space-x-7">
             <button onClick={() => setPage(page - 1)} disabled={page === 1}>
               {" "}
@@ -117,8 +80,8 @@ function ClientContactData() {
               {" "}
               <FaChevronRight className="size-10 shadow-md p-2 text-gray-700/50 rounded-sm hover:text-gray-700 cursor-pointer hover:shadow-xl ease-in-out duration-200" />
             </button>
-          </div> */}
-        </div>
+          </div>
+        </div> */}
       </div>
     </div>
   );
